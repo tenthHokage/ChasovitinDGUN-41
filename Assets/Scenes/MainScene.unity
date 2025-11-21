@@ -157,6 +157,7 @@ Transform:
   - {fileID: 3209940240673479841}
   - {fileID: 4390974094136382675}
   - {fileID: 656689981}
+  - {fileID: 423425374}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &216804680
@@ -335,6 +336,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &423425374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6657494569625325918, guid: e7756815847c7de4fb3edd6ba84965f1, type: 3}
+  m_PrefabInstance: {fileID: 8178411469886467613}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &586921060 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: 2afa5a1773ca1f84f98c062866a8be55, type: 3}
@@ -928,7 +934,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 54821857}
     m_Modifications:
     - target: {fileID: 4978125117599615853, guid: e7756815847c7de4fb3edd6ba84965f1, type: 3}
       propertyPath: m_Name
@@ -1101,6 +1107,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1636547944952214472, guid: 3008fc104b9e1e24cb1741325a13ca81, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636547944952214472, guid: 3008fc104b9e1e24cb1741325a13ca81, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636547944952214472, guid: 3008fc104b9e1e24cb1741325a13ca81, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].time
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636547944952214472, guid: 3008fc104b9e1e24cb1741325a13ca81, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636547944952214472, guid: 3008fc104b9e1e24cb1741325a13ca81, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669800566662045273, guid: 3008fc104b9e1e24cb1741325a13ca81, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6857709026407695784, guid: 3008fc104b9e1e24cb1741325a13ca81, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7085536767833348440, guid: 3008fc104b9e1e24cb1741325a13ca81, type: 3}
       propertyPath: m_Name
       value: Tank
@@ -1161,4 +1195,3 @@ SceneRoots:
   - {fileID: 54821857}
   - {fileID: 8473047023667127037}
   - {fileID: 465784660338720200}
-  - {fileID: 8178411469886467613}
